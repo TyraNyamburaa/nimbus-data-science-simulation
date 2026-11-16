@@ -88,7 +88,7 @@ Before investigating why conversion is flat, this audit checks whether the trial
 |---|---|
 | Billing owners with zero post-conversion events | 5 |
 | Other active users in the same organizations | Yes |
-| Event range among teammates | 21–58 events per user |
+| Event range among teammates | 21-58 events per user |
 | Likely explanation | The billing owner may not be the primary product user |
 
 **Interpretation:** This pattern does not necessarily indicate missing event data. A subscription may be owned by an administrator or purchaser while other members of the organization generate product activity.
